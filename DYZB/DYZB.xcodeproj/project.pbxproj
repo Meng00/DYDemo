@@ -10,8 +10,8 @@
 		0025021A1E8917BF008D1BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002502191E8917BF008D1BC0 /* AppDelegate.swift */; };
 		0025021C1E8917BF008D1BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025021B1E8917BF008D1BC0 /* ViewController.swift */; };
 		0025021F1E8917BF008D1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0025021D1E8917BF008D1BC0 /* Main.storyboard */; };
-		002502211E8917BF008D1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002502201E8917BF008D1BC0 /* Assets.xcassets */; };
 		002502241E8917BF008D1BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002502221E8917BF008D1BC0 /* LaunchScreen.storyboard */; };
+		0025022F1E8A84D7008D1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0025022E1E8A84D7008D1BC0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		002502191E8917BF008D1BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0025021B1E8917BF008D1BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0025021E1E8917BF008D1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		002502201E8917BF008D1BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002502231E8917BF008D1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002502251E8917BF008D1BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0025022E1E8A84D7008D1BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				002502191E8917BF008D1BC0 /* AppDelegate.swift */,
 				0025021B1E8917BF008D1BC0 /* ViewController.swift */,
 				0025021D1E8917BF008D1BC0 /* Main.storyboard */,
-				002502201E8917BF008D1BC0 /* Assets.xcassets */,
+				0025022E1E8A84D7008D1BC0 /* Assets.xcassets */,
 				002502221E8917BF008D1BC0 /* LaunchScreen.storyboard */,
 				002502251E8917BF008D1BC0 /* Info.plist */,
 			);
@@ -96,7 +96,8 @@
 				TargetAttributes = {
 					002502151E8917BF008D1BC0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 5F5U5TFB26;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				002502241E8917BF008D1BC0 /* LaunchScreen.storyboard in Resources */,
-				002502211E8917BF008D1BC0 /* Assets.xcassets in Resources */,
+				0025022F1E8A84D7008D1BC0 /* Assets.xcassets in Resources */,
 				0025021F1E8917BF008D1BC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -258,10 +259,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5F5U5TFB26;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mengmeng.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8dc5cf39-cba9-4439-828d-d5e3b9388f09";
+				PROVISIONING_PROFILE_SPECIFIER = ushareit_develop_any;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5F5U5TFB26;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mengmeng.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8dc5cf39-cba9-4439-828d-d5e3b9388f09";
+				PROVISIONING_PROFILE_SPECIFIER = ushareit_develop_any;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +306,7 @@
 				0025022A1E8917BF008D1BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
