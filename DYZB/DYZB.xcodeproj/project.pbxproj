@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0025021A1E8917BF008D1BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002502191E8917BF008D1BC0 /* AppDelegate.swift */; };
-		0025021C1E8917BF008D1BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025021B1E8917BF008D1BC0 /* ViewController.swift */; };
 		0025021F1E8917BF008D1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0025021D1E8917BF008D1BC0 /* Main.storyboard */; };
 		002502241E8917BF008D1BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002502221E8917BF008D1BC0 /* LaunchScreen.storyboard */; };
 		0025022F1E8A84D7008D1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0025022E1E8A84D7008D1BC0 /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		002502161E8917BF008D1BC0 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002502191E8917BF008D1BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0025021B1E8917BF008D1BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0025021E1E8917BF008D1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		002502231E8917BF008D1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002502251E8917BF008D1BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		002502181E8917BF008D1BC0 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				002502301E8A85F6008D1BC0 /* Classes */,
 				002502191E8917BF008D1BC0 /* AppDelegate.swift */,
-				0025021B1E8917BF008D1BC0 /* ViewController.swift */,
 				0025021D1E8917BF008D1BC0 /* Main.storyboard */,
 				0025022E1E8A84D7008D1BC0 /* Assets.xcassets */,
 				002502221E8917BF008D1BC0 /* LaunchScreen.storyboard */,
 				002502251E8917BF008D1BC0 /* Info.plist */,
 			);
 			path = DYZB;
+			sourceTree = "<group>";
+		};
+		002502301E8A85F6008D1BC0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				002502321E8A85F6008D1BC0 /* Home */,
+				002502311E8A85F6008D1BC0 /* Follow */,
+				002502331E8A85F6008D1BC0 /* Live */,
+				002502341E8A85F6008D1BC0 /* Main */,
+				002502351E8A85F6008D1BC0 /* Profile */,
+				002502361E8A85F6008D1BC0 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		002502311E8A85F6008D1BC0 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		002502321E8A85F6008D1BC0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		002502331E8A85F6008D1BC0 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		002502341E8A85F6008D1BC0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		002502351E8A85F6008D1BC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		002502361E8A85F6008D1BC0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0025021C1E8917BF008D1BC0 /* ViewController.swift in Sources */,
 				0025021A1E8917BF008D1BC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
