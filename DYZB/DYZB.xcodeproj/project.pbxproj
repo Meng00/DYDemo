@@ -15,6 +15,7 @@
 		0025026B1E8A9484008D1BC0 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0025025B1E8A9484008D1BC0 /* Live.storyboard */; };
 		0025026C1E8A9484008D1BC0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002502601E8A9484008D1BC0 /* MainViewController.swift */; };
 		0025026D1E8A9484008D1BC0 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002502651E8A9484008D1BC0 /* User.storyboard */; };
+		0025026F1E8A959A008D1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0025026E1E8A959A008D1BC0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0025025B1E8A9484008D1BC0 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		002502601E8A9484008D1BC0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		002502651E8A9484008D1BC0 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		0025026E1E8A959A008D1BC0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				002502601E8A9484008D1BC0 /* MainViewController.swift */,
+				0025026E1E8A959A008D1BC0 /* Main.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0025026F1E8A959A008D1BC0 /* Main.storyboard in Resources */,
 				002502241E8917BF008D1BC0 /* LaunchScreen.storyboard in Resources */,
 				0025022F1E8A84D7008D1BC0 /* Assets.xcassets in Resources */,
 				002502691E8A9484008D1BC0 /* Follow.storyboard in Resources */,
